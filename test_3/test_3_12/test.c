@@ -12,8 +12,8 @@ int main()
 	{
 		printf("这是一个子进程\n");
 	}
-	else
-		printf("这是一个父进程\n");
+	//wait(NULL);
+	printf("这是一个父进程\n");
 	printf("进程创建完毕\n");
 	return 0;
 }
