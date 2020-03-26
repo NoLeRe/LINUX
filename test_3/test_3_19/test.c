@@ -10,7 +10,7 @@ int main()
 	{
 		printf("%d \n",getpid());
 		sleep(3);
-		exit(42);
+		//exit(42);
 	}
 	//wait(NULL);
 	int ret,status;
@@ -20,6 +20,7 @@ int main()
 		printf("----hurry up----\n");
 	}
 	printf("status:%d \n",status>>8&0xff);
+		
 	while(1)
 	{
 		printf("-----Don't Bother-----%d %d\n",getpid(),pid);
